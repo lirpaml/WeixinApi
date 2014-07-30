@@ -41,8 +41,8 @@ var WeixinApi = (function () {
                 "appid":theData.appId ? theData.appId : '',
                 "img_url":theData.imgUrl,
                 "link":theData.link,
-                "desc":theData.title,
-                "title":theData.desc, // 注意这里要分享出去的内容是desc
+                "desc":theData.desc,
+                "title":theData.title, // 注意这里要分享出去的内容是desc
                 "img_width":"120",
                 "img_height":"120"
             }, function (resp) {
